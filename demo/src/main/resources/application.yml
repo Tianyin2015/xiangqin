@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: special-training
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xqapp?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: root
+server:
+  port: 8280
